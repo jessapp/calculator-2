@@ -9,7 +9,7 @@ from arithmetic import *
 
 while True:
 
-    user_input = raw_input("Please input your math expression. Ex. + 2 2\n>")
+    user_input = raw_input("Please input your math expression! Ex. + 2 2\n>")
 
     tokens = user_input.split()
     if tokens[0] == "q":
