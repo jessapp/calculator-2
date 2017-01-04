@@ -7,12 +7,6 @@ calculator program yourself in this file.
 
 from arithmetic import *
 
-
-# Your code goes here
-
-#ask the user for raw input
-#split the input on spaces
-
 while True:
 
     user_input = raw_input("Please input your math expression. Ex. + 2 2\n>")
