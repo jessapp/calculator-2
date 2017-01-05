@@ -1,34 +1,40 @@
-def add(num1, num2):
-    return num1 + num2
+def add(*args):
+    print sum(args)
+add(1, 2)
+
+def subtract(*args):
+
+    running_diffference = args[0]
+    new_list = args[1:]
+
+    for arg in new_list:
+        running_diffference = running_diffference - arg
+    print running_diffference
+subtract(50, 5, 2)
+
+# def multiply(num1, num2):
+#     return num1 * num2
 
 
-def subtract(num1, num2):
-    return num1 - num2
+# def divide(num1, num2):
+#     # Need to turn at least argument to float for division to
+#     # not be integer division
+#     return float(num1) / float(num2) 
 
 
-def multiply(num1, num2):
-    return num1 * num2
+# def square(num1):
+#     # Needs only one argument
+#     return num1 * num1
 
 
-def divide(num1, num2):
-    # Need to turn at least argument to float for division to
-    # not be integer division
-    return float(num1) / float(num2) 
+# def cube(num1):
+#     # Needs only one argument
+#     return num1 * num1 * num1
 
 
-def square(num1):
-    # Needs only one argument
-    return num1 * num1
+# def power(num1, num2):
+#     return num1 ** num2  # ** = exponent operator
 
 
-def cube(num1):
-    # Needs only one argument
-    return num1 * num1 * num1
-
-
-def power(num1, num2):
-    return num1 ** num2  # ** = exponent operator
-
-
-def mod(num1, num2):
-    return num1 % num2
+# def mod(num1, num2):
+#     return num1 % num2

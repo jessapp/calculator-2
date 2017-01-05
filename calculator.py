@@ -15,7 +15,7 @@ while True:
     if tokens[0] == "q":
         break
     elif tokens[0] == "+":
-        print add(int(tokens[1]), int(tokens[2]))
+        print add(string)
     elif tokens[0] == "-":
         print subtract(int(tokens[1]), int(tokens[2]))
     elif tokens[0] == "*":
@@ -32,3 +32,13 @@ while True:
         print mod(int(tokens[1]), int(tokens[2]))
     else:
         print "Invalid input"
+
+
+print "bye!"
+
+
+
+    # numbers = string.split()
+    # numbers.pop(0)
+    # numbers = map(int, numbers)
+    # print reduce(lambda x,y: x+y, numbers)
